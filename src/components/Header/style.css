@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  font-size: 12px;
+  font-weight: bold;
+}
+.contact > a:link,
+.contact > a:hover,
+.contact > a:visited {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.contact > a:last-child {
+  margin-right: 0;
+}
+.social-media {
+  width: 131px;
+  display: flex;
+  justify-content: flex-end;
+}
+.social-media > a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.social-media > a > img {
+  width: 16px;
+  height: 16px;
+}
+@media only screen and (max-width: 799px) {
+  .header {
+    flex-direction: column;
+  }
+  .social-media {
+    justify-content: flex-start;
+    margin-top: 5px;
+  }
+  .social-media > a {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}

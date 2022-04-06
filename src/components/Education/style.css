@@ -1,0 +1,37 @@
+.ed-container {
+  display: flex;
+  margin-bottom: 72px;
+}
+.ed-container > div {
+  margin-right: 150px;
+}
+.ed-container > div:last-child {
+  margin-right: 0;
+}
+.single-item {
+  margin-bottom: 20px;
+}
+.small-year {
+  color: #ccc;
+  font-size: 9px;
+  margin-bottom: 20px;
+}
+.job-title {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: -6px;
+}
+.firm,
+.duration {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #bbb;
+}
+@media only screen and (max-width: 799px) {
+  .ed-container {
+    flex-direction: column;
+  }
+  .ed-container > div {
+    margin-right: 0px;
+  }
+}

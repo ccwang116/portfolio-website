@@ -1,0 +1,29 @@
+.advantage > p {
+  text-align: center;
+}
+.logo-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #eee;
+  border-radius: 45%;
+  width: 94px;
+  height: 128px;
+  margin-right: 42px;
+  margin-bottom: 42px;
+}
+.logo-card > img {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo-card > span {
+  font-family: "Times New Roman", Times, serif;
+}

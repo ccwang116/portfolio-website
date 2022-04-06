@@ -1,0 +1,28 @@
+.title {
+  width: 50vw;
+  font-family: "Times New Roman";
+  font-size: 67px;
+  line-height: 82px;
+  text-align: center;
+  margin: 40px auto;
+  font-weight: bold;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anime {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 799px) {
+  .title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
