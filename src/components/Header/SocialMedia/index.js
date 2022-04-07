@@ -7,11 +7,12 @@ function SocialMedia() {
       <a
         href="https://www.facebook.com/profile.php?id=100002118816826"
         target="_blank"
+        rel="noreferrer"
       >
-        <img src="/images/facebook-square-brands.svg"></img>{" "}
+        <img src="/images/facebook-square-brands.svg" alt="fb"></img>{" "}
       </a>
-      <a href="https://github.com/ccwang116/" target="_blank">
-        <img src="/images/github-square-brands.svg"></img>{" "}
+      <a href="https://github.com/ccwang116/" target="_blank" rel="noreferrer">
+        <img src="/images/github-square-brands.svg" alt="github"></img>{" "}
       </a>
     </div>
   );

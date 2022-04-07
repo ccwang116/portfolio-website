@@ -8,8 +8,8 @@ function Advantage() {
       <h3 className="block-title">My Advantage</h3>
       <div className="logo-card-container mb-large">
         {advantage.map((e) => (
-          <div className="logo-card">
-            <img src={e.image} />
+          <div key={e.title} className="logo-card">
+            <img src={e.image} alt={e.title} />
             <span>{e.title}</span>
           </div>
         ))}
