@@ -1,8 +1,13 @@
 export const experience = [
   {
     type: "education",
-    year: "2009",
+    year: "Education",
     content: [
+      {
+        title: "Front-end Course",
+        firm: "資策會數位教育研究所",
+        duration: "2020",
+      },
       {
         title: "Graphic Communication Arts",
         firm: "國立臺灣藝術大學",
@@ -17,18 +22,12 @@ export const experience = [
   },
   {
     type: "experience",
-    year: "2016",
+    year: "Experience",
     content: [
       {
-        title: "Frontend Developer",
+        title: "Front-end Developer",
         firm: "緯創軟體股份有限公司",
         duration: "2020/07-now",
-      },
-
-      {
-        title: "Frontend Course",
-        firm: "資策會數位教育研究所",
-        duration: "2020",
       },
       {
         title: "Web Designer",

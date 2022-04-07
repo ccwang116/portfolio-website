@@ -8,7 +8,7 @@ function AboutMe() {
     <div className="about_box">
       <Left />
       <div className="my_photo">
-        <img src="https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg?q=60"></img>
+        <img src="https://avatars.githubusercontent.com/u/66878095?v=4"></img>
       </div>
       <Right />
     </div>

@@ -1,7 +1,7 @@
 export const overview = [
   {
     title: "Biography",
-    content: ["I'm Chao Chun Wang, a Frontend Developer Based in Taipei"],
+    content: ["I'm Chao Chun Wang, a Front-end Developer Based in Taipei"],
   },
   {
     title: "Contact",
