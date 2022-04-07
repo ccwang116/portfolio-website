@@ -26,3 +26,8 @@ hr {
 .mb-large {
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 799px) {
+  .container {
+    padding: 20px 20px;
+  }
+}

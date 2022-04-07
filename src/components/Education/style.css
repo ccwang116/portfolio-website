@@ -1,9 +1,8 @@
 .ed-container {
   display: flex;
-  margin-bottom: 72px;
-}
-.ed-container > div {
-  margin-right: 150px;
+  width: 855px;
+  justify-content: space-between;
+  margin: 0 auto 72px auto;
 }
 .ed-container > div:last-child {
   margin-right: 0;
@@ -19,7 +18,6 @@
 .job-title {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
-  margin-bottom: -6px;
 }
 .firm,
 .duration {
@@ -29,9 +27,14 @@
 }
 @media only screen and (max-width: 799px) {
   .ed-container {
+    width: 100%;
     flex-direction: column;
   }
-  .ed-container > div {
+  .ed-container > div,
+  .single-item {
     margin-right: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
