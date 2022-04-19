@@ -1,0 +1,45 @@
+.pj-card-container {
+  display: flex;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+}
+.pj-card {
+  flex: 0 0 31%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.pj-card > a > img {
+  width: 100%;
+  height: 224px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+.pj-card > span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pj-link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.pj-link > a {
+  display: block;
+  text-decoration: none;
+  color: #bbb;
+  font-size: 9px;
+}
+@media only screen and (max-width: 799px) {
+  .pj-card-container {
+    flex-direction: column;
+  }
+  .pj-card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
