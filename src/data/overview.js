@@ -5,7 +5,7 @@ export const overview = [
   },
   {
     title: "Contact",
-    content: ["Taipei, Taiwan", "chaochunwang@outlook.com", "0988-320-080"],
+    content: ["Taipei, Taiwan", "chaochunwang@outlook.com", "0988-***-***"],
   },
   {
     title: "Expertise",

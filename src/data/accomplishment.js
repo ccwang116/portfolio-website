@@ -4,11 +4,11 @@ export const accomplishment = [
     content: "3.5",
   },
   {
-    title: "Satification Project",
-    content: "100%",
+    title: "GitHub repository/projects",
+    content: "11",
   },
   {
-    title: "Experience Company",
-    content: "5",
+    title: "Participated Projects",
+    content: "3",
   },
 ];

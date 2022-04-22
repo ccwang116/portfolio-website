@@ -30,6 +30,12 @@
   font-size: 48px;
   line-height: 48px;
 }
+.right_number > span {
+  font-family: "Times New Roman";
+  font-size: 27px;
+  line-height: 27px;
+  margin-left: 10px;
+}
 @media only screen and (max-width: 799px) {
   .about_box {
     flex-direction: column;

@@ -4,7 +4,7 @@ export const experience = [
     year: "Education",
     content: [
       {
-        title: "Front-end Course",
+        title: "Front-end Training Course",
         firm: "資策會數位教育研究所",
         duration: "2020",
       },

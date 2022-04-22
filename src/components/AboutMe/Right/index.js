@@ -7,7 +7,10 @@ function Right() {
       {accomplishment.map((e, idx) => (
         <div key={`overview_${idx}`}>
           <h5>{e.title}</h5>
-          <div className="right_number">{e.content}</div>
+          <div className="right_number">
+            {e.content}
+            <span>+</span>
+          </div>
         </div>
       ))}
     </div>
