@@ -13,6 +13,19 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+.detailbox {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 50%;
+}
+.pj-card > a {
+  position: relative;
+}
 .pj-card > a > img {
   width: 100%;
   height: 224px;
@@ -34,6 +47,13 @@
   color: #bbb;
   font-size: 9px;
 }
+.mobileonly {
+  width: 100%;
+  text-align: center;
+  background: #ccc;
+  border-radius: 10px;
+  display: none;
+}
 @media only screen and (max-width: 799px) {
   .pj-card-container {
     flex-direction: column;
@@ -41,5 +61,8 @@
   .pj-card {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  .mobileonly {
+    display: block;
   }
 }

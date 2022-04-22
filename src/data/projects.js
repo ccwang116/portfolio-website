@@ -2,23 +2,29 @@ export const myProjects = [
   {
     title: "My Task Board",
     img: "/images/my-task-board-prj.jpg",
-    public_url: "/#",
+    public_url: "https://todo-taskwall.netlify.app",
     git_url: "https://github.com/ccwang116/my-task-board",
     duration: "2022/04",
+    type: "front-end",
+    desp: "Focus Tech: React, Typescript<br/><hr/>Basic Tech: JavaScript, HTML, SCSS, RWD",
   },
   {
-    title: "Project 1",
-    img: "/images/my-task-board-prj.jpg",
+    title: "Pet Food Shopping",
+    img: "https://github.com/ccwang116/PetWebsite_client/raw/master/PET_FEED_sreenshot.png",
     public_url: "",
-    git_url: "",
-    duration: "2022/04",
+    git_url: "https://github.com/ccwang116/PetWebsite_client",
+    duration: "2020/07",
+    type: "front-end",
+    desp: "Focus Tech: React, Fetch API, Bootstrap<br/><hr/>Basic Tech: JavaScript, HTML, SCSS",
   },
   {
-    title: "Project 2",
-    img: "/images/my-task-board-prj.jpg",
+    title: "Pet Food Shopping Server",
+    img: "https://github.com/ccwang116/PetWebsite_client/raw/master/PET_FEED_sreenshot.png",
     public_url: "",
-    git_url: "https://github.com/ccwang116/my-task-board",
-    duration: "2022/04",
+    git_url: "https://github.com/ccwang116/PetWebsite_server",
+    duration: "2020/07",
+    type: "back-end",
+    desp: "Focus Tech:Node.js, Express.js<br/><hr/>Basic Tech: JavaScript, MySQL, phpMyAdmin",
   },
 ];
 export const partiProjects = [
@@ -28,6 +34,7 @@ export const partiProjects = [
     public_url: "https://www.planet9.gg/TW/zh",
     git_url: null,
     duration: "2020/07/28-2022/03/31",
+    desp: "Focus Tech: React, axios API <br/><hr/>Basic Tech: JavaScript, HTML, SCSS, RWD",
   },
   {
     title: "PLANET9 客戶關係管理系統",
@@ -35,6 +42,7 @@ export const partiProjects = [
     public_url: "",
     git_url: null,
     duration: "2021/03/23-2022/01/06",
+    desp: "Focus Tech:Next.js, ECharts library, React Bootstrap<br/><hr/>Basic Tech: JavaScript, HTML",
   },
   {
     title: "國立臺灣師範大學國際事務處網站",
@@ -42,5 +50,6 @@ export const partiProjects = [
     public_url: "https://bds.oia.ntnu.edu.tw/bds/web",
     git_url: null,
     duration: "2021/07/29-2021/09/17",
+    desp: "Focus Tech: Next.js <br/><hr/>Basic Tech: JavaScript, HTML, SCSS",
   },
 ];
