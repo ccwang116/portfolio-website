@@ -1,5 +1,14 @@
 export const myProjects = [
   {
+    title: "股票報價及天氣通知系統",
+    img: "https://www.cakeresume.com/cdn-cgi/image/fit=scale-down,format=auto,w=828/https://images.cakeresume.com/gDvwZ/ivy-chaochunwang/52acd6d9-dfc5-4ae4-93a6-60947e874398.png",
+    public_url: "https://notify-assistant.vercel.app/",
+    git_url: "https://github.com/ccwang116/notify-assistant/",
+    duration: "2023/02-now",
+    type: "back-end",
+    desp: "Focus Tech: Node.js, Express.js<br/><hr/>Basic Tech: Pug view engine",
+  },
+  {
     title: "My Task Board",
     img: "/images/my-task-board-prj.jpg",
     public_url: "https://todo-taskwall.netlify.app",
@@ -28,6 +37,22 @@ export const myProjects = [
   },
 ];
 export const partiProjects = [
+  {
+    title: "ColorPro Sense",
+    img: "https://www.cakeresume.com/cdn-cgi/image/fit=scale-down,format=auto,w=828/https://images.cakeresume.com/gDvwZ/ivy-chaochunwang/1397a5a9-e54e-435c-8aff-321838b5ce3a.png",
+    public_url: "https://www.viewsonic.com/colorpro/support/software/",
+    git_url: null,
+    duration: "2023/03/01-2023/12/01",
+    desp: "Focus Tech: React.js, Electron.js, Typescript, AWS lambda function with Node.js <br/><hr/>Basic Tech: Material UI styled, Formik",
+  },
+  {
+    title: "Cloud-based Calibration Solution螢幕校正管理",
+    img: "https://www.cakeresume.com/cdn-cgi/image/fit=scale-down,format=auto,w=828/https://images.cakeresume.com/gDvwZ/ivy-chaochunwang/d1176d5d-61a6-4e32-b090-86a72a5f7d18.png",
+    public_url: "",
+    git_url: null,
+    duration: "2022/07/11-2023/12/01",
+    desp: "Focus Tech: React, Typescript, axios, canvas <br/><hr/>Basic Tech: Material UI styled, Formik",
+  },
   {
     title: "PLANET9 電競社群平台",
     img: "https://d1k8pxxip4mxx2.cloudfront.net/pub/media/seo/page/images/default.a4388a541818ac8d6602f3eadcf5e7db.jpg",

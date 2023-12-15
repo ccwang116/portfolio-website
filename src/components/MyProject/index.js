@@ -6,8 +6,8 @@ import { myProjects, partiProjects } from "../../data/projects";
 function MyProject() {
   return (
     <div>
-      <ProjectCard title="My Project" data={myProjects} />
       <ProjectCard title="Participated Project" data={partiProjects} />
+      <ProjectCard title="My Project" data={myProjects} />
     </div>
   );
 }

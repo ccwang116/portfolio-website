@@ -1,14 +1,14 @@
 export const accomplishment = [
   {
     title: "Years of experience",
-    content: "3.5",
+    content: "5",
   },
   {
     title: "GitHub repository/projects",
-    content: "11",
+    content: "18",
   },
   {
     title: "Participated Projects",
-    content: "3",
+    content: "5",
   },
 ];

@@ -26,8 +26,13 @@ export const experience = [
     content: [
       {
         title: "Front-end Developer",
+        firm: "ViewSonic Corporation",
+        duration: "2022/07-Now",
+      },
+      {
+        title: "Front-end Developer",
         firm: "緯創軟體股份有限公司",
-        duration: "2020/07-now",
+        duration: "2020/07-2022/06",
       },
       {
         title: "Web Designer",
@@ -38,6 +43,22 @@ export const experience = [
         title: "Graphic Designer",
         firm: "晴天紙品禮品股份有限公司",
         duration: "2016/09-2017/08",
+      },
+    ],
+  },
+  {
+    type: "certificate",
+    year: "Certificate",
+    content: [
+      {
+        title: "AWS Security Essentials",
+        firm: "雲育鏈股份有限公司",
+        duration: "2023/11/14",
+      },
+      {
+        title: "AWS Cloud Practitioner Essentials",
+        firm: "雲育鏈股份有限公司",
+        duration: "2023/11/14",
       },
     ],
   },

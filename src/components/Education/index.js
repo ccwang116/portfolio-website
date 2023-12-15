@@ -22,12 +22,12 @@ function Education() {
             ))}
           </div>
         ))}
-        <div className="my_photo">
+        {/* <div className="my_photo">
           <img
             src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.18169-9/13427916_1057056207708330_7613742606727115720_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=rVg_d-fR_twAX_kJsdp&_nc_ht=scontent.ftpe8-1.fna&oh=00_AT8DHQfFG9_NM3CKXCcCMx1ugwh8POkTGsuploWokQwEgA&oe=628628C4"
             alt="a cat"
           ></img>
-        </div>
+        </div> */}
       </div>
 
       <hr />
